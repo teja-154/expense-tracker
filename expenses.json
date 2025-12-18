@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "amount": 150.0,
+        "category": "food",
+        "date": "18-12-2025 18:15",
+        "note": "evening snacks at home"
+    },
+    {
+        "id": 2,
+        "amount": 300.0,
+        "category": "travel",
+        "date": "18-12-2025 18:15",
+        "note": "went to beach"
+    }
+]
