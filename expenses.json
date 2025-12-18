@@ -12,5 +12,12 @@
         "category": "travel",
         "date": "18-12-2025 18:15",
         "note": "went to beach"
+    },
+    {
+        "id": 3,
+        "amount": 2800.0,
+        "category": "shopping",
+        "date": "18-12-2025 22:08",
+        "note": "at zudio"
     }
 ]

@@ -10,21 +10,21 @@ This project is suitable for beginners to intermediate learners and demonstrates
 
 ## 🚀 Features
 
-## Core Features
+### Core Features
 
 * Add a new expense (amount, category, date, note)
 * View all recorded expenses
 * Edit or delete existing expenses
 * Persistent storage using JSON
 
-## Analysis Features
+### Analysis Features
 
 * View total amount spent
 * Category-wise expense summary
 * Identify highest and lowest expenses
 * Search expenses by keyword or date range
 
-## Advanced Features
+### Advanced Features
 
 * Export expense report to CSV
 * Category-wise expense graph using matplotlib
@@ -71,13 +71,23 @@ expense_tracker/
 
 ## 📊 Sample Output
 
-## Terminal Output
+### Terminal Output
 
 ```
 1. ₹150.0 - food - 18-12-2025 18:15 - evening snacks at home
 2. ₹300.0 - travel - 18-12-2025 18:15 - went to beach
 
 ```
+## 📸 Screenshots
+
+### Main Menu
+![Menu](screenshots/menu.png)
+
+### Expense List
+![Expenses](screenshots/expenses.png)
+
+### Category-wise Graph
+![Graph](screenshots/graph.png)
 
 ## Graph Output
 
