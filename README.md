@@ -2,9 +2,12 @@
 
 ## 📌 Overview
 
-Expense Tracker is a command-line based Python application designed to help users record, manage, and analyze their daily expenses. The project focuses on clean code structure, data persistence, and basic data analysis with visualization.
+Expense Tracker is a command-line Python application that helps users record, manage, and analyze their daily expenses.
+The project emphasizes clean code structure, modular design, and persistent data storage, along with basic data analysis and visualization.
 
-This project is suitable for beginners to intermediate learners and demonstrates real-world programming practices such as modular design, file handling, and data visualization.
+This project is built as a learning-focused but practical application, demonstrating how real-world programs handle user input, data storage, analysis, and reporting.
+
+It is suitable for beginner to intermediate Python learners.
 
 ---
 
@@ -26,9 +29,9 @@ This project is suitable for beginners to intermediate learners and demonstrates
 
 ### Advanced Features
 
-* Export expense report to CSV
-* Category-wise expense graph using matplotlib
-* Error handling for invalid input and empty data
+* Export expense data to CSV
+* Category-wise expense visualization using Matplotlib
+* Graceful handling of invalid input and empty data
 
 ---
 
@@ -43,14 +46,22 @@ This project is suitable for beginners to intermediate learners and demonstrates
 
 ## 📂 Project Structure
 
+```text
 expense_tracker/
-│── main.py              # Entry point of the application
-│── expense_ops.py       # CRUD operations (add, edit, delete, view)
-│── analysis.py          # Analysis, graphs, and export functions
-│── storage.py           # JSON load/save functions
-│── expenses.json        # Stored expense data
-│── expense_report.csv   # Exported CSV report
-│── README.md            # Project documentation
+├── main.py              # Application entry point and menu handling
+├── expense_ops.py       # CRUD operations (add, edit, delete, view)
+├── analysis.py          # Expense analysis, graphs, and CSV export
+├── storage.py           # JSON load/save utility functions
+├── expenses.json        # Stored expense data
+├── expense_report.csv   # Exported CSV report
+├── screenshots/         # Application screenshots (README visuals)
+│   ├── menu.png
+│   ├── expenses.png
+│   └── graph.png
+├── .gitignore           # Files/folders ignored by Git
+├── README.md            # Project documentation
+
+```
 
 ---
 
@@ -61,11 +72,11 @@ expense_tracker/
 3. Ensure Python is installed and configured
 4. Install required dependency:
 
-   — pip install matplotlib
+     — pip install matplotlib
 
 5. Run the application:
 
-   — python main.py
+     — python main.py
 
 ---
 
@@ -123,4 +134,4 @@ B.Sc Student | Python Developer (Beginner–Intermediate)
 
 ## 📄 License
 
-This project is for learning and educational purposes.
+Designed as a practical learning project demonstrating real-world Python concepts.
