@@ -6,7 +6,8 @@ from analysis import (
     Largest_smallest_expense,
     filter_by_date,
     plot_category_expense,
-    export_to_csv
+    export_to_csv,
+    monthly_summary
 )
 from expense_ops import (
     Add_expense,
@@ -23,12 +24,13 @@ print("2. View All Expenses")
 print("3. View Total Amount Spent")
 print("4. Edit/Modify an Expense")
 print("5. Delete an Expense")
-print("6. Category Summary")
+print("6. Display Category Summary")
 print("7. Search Expense")
-print("8. Highest & Lowest Expense")
+print("8. Display Highest & Lowest Expense")
 print("0. Exit Program")
 print("11. Export Expense Report (CSV)")
 print("22. Display Expenses in a Graph")
+print("33. Display Monthly Summary Of Expenses")
 print("\n=====================================\n")
 while True:
     try:
@@ -62,6 +64,8 @@ while True:
             plot_category_expense(expense)
         elif N==11:
             export_to_csv(expense)
+        elif N==33:
+            monthly_summary(expense)
         else:
             print("Invalid choice, Try again.")
             

@@ -80,4 +80,19 @@ def export_to_csv(expense):
 
     print("Expense Report Exported as expense_report.csv\n")
 
+def monthly_summary(expense):
+    summary = {}
+    for e in expense:
+        date_part = e["date"].split(" ")[0]
+        day, month, year = date_part.split("-")
+        month_key = f"{year}-{month}"
+        if month_key not in summary:
+            summary[month_key] = 0
+        summary[month_key] += e["amount"]
+    if not summary:
+        print("No expenses available.")
+        return
+    print("\n📅 Monthly Expense Summary:")
+    for month in sorted(summary):
+        print(f"{month} → ₹{summary[month]}")
 #--------------------⬆️ Expense Functions ⬆️-----------------------
